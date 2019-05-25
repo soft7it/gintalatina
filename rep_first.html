@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repertoriul lunar al Teatrului de Revista "Ginta Latina"</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <style>
+        /* Add a dark gray background color to the modal header and center text */
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+    </style>
+</head>
+
+<body id="myPage" data-target=".navbar" data-offset="50">
+    <!-- meniu -->
+    <div class="container">
+        <div class="page-header">
+            <div id="logo" class="group">
+                <a href="http://gintalatina.md/site/home.html" title="Ginta Latina"><img src="site/images/logo.png"
+                        title="Ginta Latina" alt="Ginta Latina"></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default" style="background-color: transparent; border-color: transparent; ">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ACASA<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://gintalatina.md/site/afisha.html">Afisa Noastra</a></li>
+                                <li><a href="http://gintalatina.md/site/tickets.html">Bilete</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="http://gintalatina.md/test.html">REPERTORIUL<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://gintalatina.md/test.html">REPERTORIUL</a></li>
+                                <li><a href="http://gintalatina.md/rep_first.html">REPERTORIUL LUNEI</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">SPECTACOLE<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://gintalatina.md/site/spectacole.html">Actuale</a></li>
+                                <li><a href="http://gintalatina.md/site/archives.html">Arhiva teatrului</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="http://gintalatina.md/site/teams.html">ECHIPA
+                                NOASTRA<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://gintalatina.md/site/teams_creators.html">Echipa de creatie</a></li>
+                                <li><a href="http://gintalatina.md/site/Actors.html">Actorii</a></li>
+                                <li><a href="http://gintalatina.md/site/teams_tehnics.html">Echipa tehnica</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://gintalatina.md/site/about.html">DESRE NOI</a></li>
+                        <li><a href="http://gintalatina.md/site/blog.html">BLOG</a></li>
+                        <li><a href="http://gintalatina.md/site/contact.html">CONTACTE</a></li>
+
+                    </ul>
+        </nav>
+    </div>
+        <!-- meniu -->
+ 
+    <div class="bg-1">
+        <div class="container">
+            <h3 class="text-center">Repertoriul acestei luni</h3>
+            
+            <!-- schedule theatre -->
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Data</th>
+                        <th scope="col">Spectacole</th>
+                        <th scope="col">Ora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-03" scope="col">03.02</td> <!-- change data -->
+                        <th itemprop="name" scope="col"><a href="#" type="button" class="btn btn-link"><strong>Pălăria florentină</strong></a></td> <!-- change name -->
+                        <meta itemprop="name" content="Pălăria florentină"/>
+                        <th itemprop="startDate" content="T18:00" scope="col" >18:00</th> <!-- change time -->
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-09" scope="col">09.02</th>
+                        <th itemprop="name" scope="col"><a href="http://gintalatina.md/site/boeing_boeing.html" type="button" class="btn btn-link"><strong>Boeing, Boeing</strong></a></th>
+                        <meta itemprop="name" content="Boeing, Boeing"/>
+                        <th itemprop="startDate" content="T18:00" scope="col">18:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-10" scope="col">10.02</th>
+                        <th itemprop="name" scope="col"><a href="http://gintalatina.md/site/boeing_boeing.html" type="button" class="btn btn-link"><strong>Boeing, Boeing</strong></a></th>
+                        <meta itemprop="name" content="Boeing, Boeing"/>
+                        <th itemprop="startDate" content="T18:00" scope="col">18:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-13" scope="col">13.02</th>
+                        <th itemprop="name" scope="col"><a href="http://gintalatina.md/site/boeing_boeing.html" type="button" class="btn btn-link"><strong>Boeing, Boeing</strong></a></th>
+                        <meta itemprop="name" content="Boeing, Boeing"/>
+                        <th itemprop="startDate" content="T18:00" scope="col">18:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-14" scope="col">14.02</th>
+                        <th itemprop="name" scope="col"><a href="http://gintalatina.md/site/boeing_boeing.html" type="button" class="btn btn-link"><strong>Boeing, Boeing</strong></a></th>
+                        <meta itemprop="name" content="Boeing, Boeing"/>
+                        <th itemprop="startDate" content="T14:00" scope="col">14:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-17" scope="col">17.02</th>
+                        <th itemprop="name" scope="col"><a href="#" type="button" class="btn btn-link"><strong>Veselul humuleștean</strong></a></th>
+                        <meta itemprop="name" content="Veselul humuleștean"/>
+                        <th itemprop="startDate" content="T12:00" scope="col">12:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-18" scope="col">18.02</th>
+                        <th itemprop="name" scope="col"><a href="#" type="button" class="btn btn-link"><strong>Veselul humuleștean</strong></a></th>
+                        <meta itemprop="name" content="Veselul humuleștean"/>
+                        <th itemprop="startDate" content="T13:00" scope="col">13:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-20" scope="col">20.02</th>
+                        <th itemprop="name" scope="col"><a href="http://gintalatina.md/site/boeing_boeing.html" type="button" class="btn btn-link"><strong>Boeing, Boeing</strong></a></th>
+                        <meta itemprop="name" content="Boeing, Boeing"/>
+                        <th itemprop="startDate" content="T18:00" scope="col">18:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-21" scope="col">21.02</th>
+                        <th itemprop="name" scope="col"><a href="http://gintalatina.md/site/boeing_boeing.html" type="button" class="btn btn-link"><strong>Boeing, Boeing</strong></a></th>
+                        <meta itemprop="name" content="Boeing, Boeing"/>
+                        <th itemprop="startDate" content="T15:00" scope="col">15:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-27" scope="col">27.02</th>
+                        <th itemprop="name" scope="col"><a href="#" type="button" class="btn btn-link"><strong>Veselul humuleștean</strong></a></th>
+                        <meta itemprop="name" content="Veselul humuleștean"/>
+                        <th itemprop="startDate" content="T15:00" scope="col">15:00</th>
+                    </tr>
+
+                    <tr itemscope="" itemtype="http://schema.org/TheaterEvent">
+                        <th scope="row"></th>
+                        <th itemprop="startDate" content="2019-02-28" scope="col">28.02</th>
+                        <th itemprop="name" scope="col"><a href="#" type="button" class="btn btn-link"><strong>Veselul humuleștean</strong></a></th>
+                        <meta itemprop="name" content="Veselul humuleștean"/>
+                        <th itemprop="startDate" content="T15:00" scope="col">15:00</th>
+                    </tr>
+                   
+                </tbody>
+            </table>
+
+            <!-- schedule theatre -->
+            
+
+
+        </div>
+    </div>
+
+    <p class="text-center">Vă așteptăm cu drag !</p>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p> Made By <a href="https://www.atlassib.md" data-toggle="tooltip" title="Vitali w3schools">www.atlassib.md</a></p>
+    </footer>
+   
+</body>
+
+</html>
